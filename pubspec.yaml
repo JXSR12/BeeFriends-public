@@ -1,0 +1,119 @@
+name: BeeFriends
+description: Interact anonymously and make friends within your university community.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.5.4+36
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: any
+  firebase_auth: any
+  firebase_storage: any
+  cloud_firestore: any
+  microsoft_graph_api: ^0.0.6
+  flutter_dotenv: ^5.1.0
+  provider: ^6.0.5
+  aad_oauth: ^0.4.4
+  http: ^0.13.6
+  xml2json: ^5.0.2
+  google_fonts: ^4.0.4
+  intl: ^0.19.0
+  shared_preferences: any
+  image_picker: ^1.0.4
+  path: ^1.8.3
+  particles_flutter: ^0.1.4
+  animated_gradient: ^0.0.2
+  cloud_functions: any
+  auto_size_text: ^3.0.0
+  cupertino_icons: ^1.0.2
+  visibility_detector: ^0.4.0+2
+  transparent_image: ^2.0.1
+  card_swiper: ^3.0.1
+  photo_view: ^0.14.0
+  awesome_notifications_core: ^0.9.1
+  awesome_notifications: ^0.9.2
+  awesome_notifications_fcm: ^0.9.2
+  in_app_notification: any
+  flutter_svg: any
+  file_picker: any
+  video_player: any
+  dio: any
+  permission_handler: any
+  path_provider: any
+  video_thumbnail: any
+  open_file_plus: any
+  just_audio: any
+  fluttertoast: any
+  flutter_image_compress: ^2.1.0
+  in_app_purchase: ^3.1.11
+  video_compress: ^3.1.2
+  url_launcher: any
+  package_info_plus: any
+  page_indicator: ^0.4.1
+  purchases_flutter: ^6.3.0
+  flutter_spinkit: ^5.2.0
+  swipe_to: ^1.0.3
+  flutter_swipe_button: ^2.1.1+1
+  salomon_bottom_bar: ^3.3.2
+  animated_button_bar: ^1.0.0
+  animations: ^2.0.8
+  vibration: ^1.7.3
+  carousel_slider: any
+  async: any
+  sign_in_with_apple: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/beefriends_logo.png
+    - assets/microsoft_logo.png
+    - assets/unknown_avatar.png
+    - assets/match_icon.svg
+    - assets/beets_icon.svg
+    - assets/icon_discord.svg
+    - assets/icon_facebook.svg
+    - assets/icon_instagram.svg
+    - assets/icon_line.svg
+    - assets/icon_linkedin.svg
+    - assets/icon_pinterest.svg
+    - assets/icon_roblox.svg
+    - assets/icon_snapchat.svg
+    - assets/icon_steam.svg
+    - assets/icon_tiktok.svg
+    - assets/icon_twitch.svg
+    - assets/icon_twitter.svg
+    - assets/icon_whatsapp.svg
+    - assets/icon_youtube.svg
+    - assets/icon_custom.svg
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/Quicksand-Medium.ttf
+
+
